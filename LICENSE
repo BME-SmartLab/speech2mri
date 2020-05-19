@@ -1,18 +1,38 @@
 Modified MIT license
 
-Copyright (c) 2020 Tamás Gábor CSAPÓ, BME-SmartLab (Speech Technology and Smart Interactions Laboratory, Budapest University of Technology and Economics, Hungary)
+Copyright (c) 2020 Tamás Gábor CSAPÓ, BME-SmartLab
+(Speech Technology and Smart Interactions Laboratory, 
+Budapest University of Technology and Economics, Hungary)
 
 If you use the Software for non-commercial purposes, the following shall apply:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of 
+this software and associated documentation files (the "Software"), to deal in 
+the Software without restriction, including without limitation the rights to 
+use, copy, modify, merge, publish, distribute, and/or sublicense  the Software, 
+and to permit persons to whom the Software is furnished to do so, subject to 
+the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all 
+copies or substantial portions of the Software.
 
-Where the Software is dealt in according to this permission notice, the Licensee, including the Contributor to the Derivative Work, shall cite at least one of the following articles in the copyright and permission notices:
+Where the Software is dealt in according to this permission notice, the 
+Licensee, including the Contributor to the Derivative Work, shall cite at least 
+one of the following articles in the copyright and permission notices:
 
-Tamas Gabor Csapo, ,,Speaker dependent acoustic-to-articulatory inversion using real-time MRI of the vocal tract'', submitted to Interspeech 2020.
+Tamas Gabor Csapo, ,,Speaker dependent acoustic-to-articulatory inversion 
+using real-time MRI of the vocal tract'', submitted to Interspeech 2020.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+SOFTWARE.
 
 
-Where the Software or its Derivative Works are used for commercial purposes, such use is subject to an individual license, to be negotiated with the Budapest University of Technology and Economics, reachable at the following e-mail address: csapot@tmit.bme.hu
+Where the Software or its Derivative Works are used for commercial purposes, 
+such use is subject to an individual license, to be negotiated with the 
+Budapest University of Technology and Economics, reachable at the following 
+e-mail address: csapot@tmit.bme.hu
