@@ -159,6 +159,9 @@ for speaker in ['f1', 'f2', 'm1', 'm2']:
     dir_mri = '/home/csapot/deep_learning_mri/usctimit_mri/' + speaker + '/'
     dir_mri_test = 'generated_image_sequence/' + speaker + '/'
     
+    if not os.path.exists(dir_mri_test):
+        os.makedirs(dir_mri_test)
+    
     # Parameters of vocoder
     samplingFrequency = 20000
     frameLength = 1024 # 
@@ -176,7 +179,7 @@ for speaker in ['f1', 'f2', 'm1', 'm2']:
     n_width = 68
     n_height = 68
     
-    DNN_types = ['FC-DNN_baseline', 'CNN', 'LSTM', 'LSTM-CNN']
+    DNN_types = ['FC-DNN_baseline', 'CNN', 'LSTM']
     # DNN_types = ['FC-DNN_baseline', 'CNN']
     # DNN_types = ['LSTM-CNN']
     basefilenames_mri_test = ['usctimit_mri_' + speaker + '_146_150', 'usctimit_mri_' + speaker + '_441_445']
@@ -200,10 +203,10 @@ for speaker in ['f1', 'f2', 'm1', 'm2']:
             print('testing on: ', basefilename)
             
             # load data for sentence
-            mri_data = load_video_3D(dir_mri_test + basefilename + '.avi', framesPerSec)
+            mri_data = load_video_3D(dir_mri + basefilename + '.avi', framesPerSec)
             mri_len = mri_data.shape[2]
             mri_test = np.empty((mri_len, n_width, n_height))
-            (mgc_lsp_coeff, lf0) = get_mgc_lsp_coeff(dir_mri_test + basefilename)
+            (mgc_lsp_coeff, lf0) = get_mgc_lsp_coeff(dir_mri + basefilename)
             
             for i in range(mri_len):
                 mri_test[i] = mri_data[:, :, i] # original, 68x68
