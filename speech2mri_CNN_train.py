@@ -3,7 +3,9 @@ Written by Tamas Gabor Csapo <csapot@tmit.bme.hu>
 First version Jan 21, 2019
 Restructured Jan 21, 2020 - for MRI data
 
-Keras implementation of Csapó T.G., ,,Acoustic-to-articulatory inversion using real-time MRI of the vocal tract with speaker specific deep neural networks'', submitted to Interspeech 2020.
+Keras implementation of Csapó T.G., ,,Speaker dependent acoustic-to-articulatory inversion using real-time MRI of the vocal tract'', accepted at Interspeech 2020
+
+code for training CNN
 '''
 
 import numpy as np
